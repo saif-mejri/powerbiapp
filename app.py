@@ -210,7 +210,7 @@ height=260
 if st.button("🔒 Déconnexion Power BI"):
     st.warning("⚠️ **Pour vous déconnecter complètement de Power BI :**")
     st.markdown("**Étape 1 :** [🚪 Se déconnecter de Microsoft](https://login.microsoftonline.com/common/oauth2/v2.0/logout)")
-    st.markdown("**Étape 2 :** [🏠 Retour au dashboard](https://powerbiapp-mbpdmgw92qprsd8as5m248.streamlit.app/?fbclid=IwY2xjawOvXqBleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeIe-gA7jo9YIjbPQwgoTBp2_IjjeBuE4go2vWwLE_sZV342gHlMxbM4j6e58_aem_eLsM6Do0_Ekud3NLx67x5w)")
+    st.markdown("**Étape 2 :** [🏠 Retour au dashboard](https://powerbiapp-mbpdmgw92qprsd8as5m248.streamlit.app/")
 
 st.markdown("<br>", unsafe_allow_html=True)
 
