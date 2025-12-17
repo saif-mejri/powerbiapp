@@ -32,6 +32,52 @@ logo_base64 = base64.b64encode(buffered.getvalue()).decode()
 
 components.html(
 f"""
+<style>
+    .header-container {{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-family: 'Poppins', 'Inter', sans-serif;
+    }}
+
+    .logo-wrapper {{
+        margin-bottom: 1.5rem;
+    }}
+
+    .logo-image {{
+        max-width: 100px;
+        height: auto;
+        filter: drop-shadow(0 4px 20px rgba(255, 255, 255, 0.4));
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }}
+
+    .logo-image:hover {{
+        transform: scale(1.1);
+    }}
+
+    .main-title {{
+        font-size: 2.8rem;
+        font-weight: 800;
+        background: linear-gradient(135deg, #6d2cf2 0%, #a78bfa 50%, #11233c 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        letter-spacing: -1px;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }}
+
+    .subtitle {{
+        font-size: 1.15rem;
+        font-weight: 300;
+        color: #ffffff;
+        line-height: 1.6;
+        max-width: 700px;
+        margin: 0 auto;
+        opacity: 0.9;
+    }}
+</style>
+
 <div class="header-container">
     <!-- Logo centré en haut -->
     <div class="logo-wrapper">
